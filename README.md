@@ -1,14 +1,25 @@
-# AI-Customer-Support-Chatbot
+# 🤖 AI Customer Support Chatbot  
+![Chatbot Demo](https://via.placeholder.com/800x400.png?text=Demo+GIF+Coming+Soon)  
 
+A hybrid chatbot combining rule-based responses (for orders/returns) with OpenAI GPT-3.5 for complex queries.
 
-A smart chatbot that answers customer questions using Python and OpenAI.
+## ✨ Features
+- **Order Tracking**: Instant order status answers  
+- **Return Processing**: 30-day return policy automation  
+- **AI Fallback**: GPT-3.5 handles unscripted questions  
 
-## How to Use
-1. Install requirements: `pip install -r requirements.txt`
-2. Add your OpenAI key in `.env`
-3. Run: `python ai_support_bot.py`
+## 🛠️ Tech Stack
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Flask](https://img.shields.io/badge/Flask-2.3-green)
+![OpenAI](https://img.shields.io/badge/OpenAI-GPT3.5-purple)
 
-## Features
-- Answers order status questions
-- Handles return requests
-- Uses AI for complex questions
+## 🚀 Quick Start
+```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# Add your OpenAI key
+echo "OPENAI_API_KEY=your_key_here" > .env
+
+# Run!
+python ai_support_bot.py
